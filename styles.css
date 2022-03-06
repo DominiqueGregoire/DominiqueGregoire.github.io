@@ -13,7 +13,7 @@ body {
 }
 /* style the headings */
 h1 {
-
+    font-family: 'Poiret One', cursive;
     color: yellow;
     text-align: center;
     }
@@ -28,6 +28,9 @@ p {
     color: darkblue;
 }
 
-/* style the topnav bar*/
+/* style the call-to-action button */
+button {
+    color: aqua;
+}
 
 

@@ -18,21 +18,49 @@
             integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
             crossorigin="anonymous"></script>
 
+    <!-- add link to special font for company brand name -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
     <title>Avatar Builder</title>
 
 </head>
 <body>
     <div class="container-fluid">
-        <!-- top navigation bar -->
-        <div class="topnav">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a class="active" href="">Avatar Builder</a>
-            <a href="contactUs.html">Contact Us</a>
-        </div>
-        <!-- banner with webpage name and saying -->
-        <h1>Fit me Perfectly</h1>
-        <p>Every woman's online fashion buying companion</p>
+        <!-- nav bar located at top of page -->
+        <nav class="navbar navbar-expand-sm bg-info justify-content-center">
+            <a class="navbar-brand" href="index.html">
+                <img src="/images/fashion-show-dresses-th-logo.png" alt="Fit me Perfectly Logo" style="width:40px;"
+                     class="rounded-pill"></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="avatarBuilder.html">Avatar Builder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactUs.html">Contact</a>
+                </li>
+                <li class="nav-link disabled" href="#">Sign Up</li>
+            </ul>
+        </nav>
+
+        <!-- site branding -->
+        <div class="row pt-3">
+            <div class="col">
+                <span>
+                    <h1><img src="/images/fashion-show-dresses-th-logo.png" alt="Fit me Perfectly Logo" style="width:40px;"
+                             class="rounded-pill"><strong>Fit me Perfectly</strong></h1>
+                <p id="tag-line">Every woman's online fashion buying companion</p></span>
+            </div>  <!-- end col div -->
+        </div> <!-- end row div -->
+
+
 
         <div class="row">
             <div class="col-sm-12">
