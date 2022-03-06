@@ -1,9 +1,15 @@
 body {
 
 }
+/* style the web page */
 .container-fluid {
     background-color: fuchsia;
     font-family: "Roboto", "Arial", sans-serif;
+}
+.container-fluid #tag-line {
+    color: yellow;
+    text-align: center;
+    -ms-text-size-adjust: auto;
 }
 /* style the headings */
 h1 {
@@ -24,8 +30,4 @@ p {
 
 /* style the topnav bar*/
 
-.topnav {
-    background-color: aqua;
-    overflow: hidden;
 
-}

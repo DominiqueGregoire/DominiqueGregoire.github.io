@@ -25,35 +25,52 @@
 </head>
 <body>
     <div class="container-fluid">
-        <!-- top navigation bar -->
-        <div class="topnav">
-            <a class="active" href="">Home</a>
-            <a href="about.html">About</a>
-            <a href="avatarBuilder.html">Avatar Builder</a>
-            <a href="contactUs.html">Contact</a>
-        </div>
 
-        <!-- banner with webpage name and saying -->
-        <h1>Fit me Perfectly</h1>
-        <p>Every woman's online fashion buying companion</p>
+        <!-- nav bar located at top of page -->
+        <nav class="navbar navbar-expand-sm bg-info justify-content-center">
+            <a class="navbar-brand" href="index.html">
+            <img src="/images/fashion-show-dresses-th-logo.png" alt="Fit me Perfectly Logo" style="width:40px;"
+                 class="rounded-pill"></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="avatarBuilder.html">Avatar Builder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactUs.html">Contact</a>
+                </li>
+                <li class="nav-link disabled" href="#">Sign Up</li>
+            </ul>
+        </nav>
 
-        <div class="row">
-            <div class="col-sm-12">
+        <!-- site branding -->
+        <div class="row pt-3">
+            <div class="col">
+                <h1><strong>Fit me Perfectly</strong></h1>
+                <p id="tag-line">Every woman's online fashion buying companion</p>
+            </div>  <!-- end col div -->
+        </div> <!-- end row div -->
 
-                <!-- main part of the page -->
+        <!-- main content -->
+        <div class="row pt-5">
+            <div class="col-sm-6">
                 <p>Buying clothes online is a touch and go experience. Here at Fit me Perfectly, we take the hassle out by creating
                     an avatar that is a representation of the real you... curves and all! You then use the avatar to 'try out' your
                     intended new outfit and you can see if it will suit you ... if it looks fantastic - go ahead and buy it. If it
                     doesn't ... hey you've saved yourself some time and money to spend on another potential outfit or whatever you
                     want. What more can a girl want!</p>
-            </div>
-        <!--    <div class="col-sm-6">
-                <p>column 2</p>
-            </div>-->
-        </div>
+            </div> <!-- end col div -->
 
-
-        <!-- <img src="img_girl.jpg" alt="Girl with a jacket"> -->
-    </div>
+            <div class="col-sm-6">
+                <img class="img-fluid" src="/images/avatar_jeans.jpeg" alt="Three views of a lady in jeans"
+                     width="1800" height="1013">
+            </div> <!-- end col div -->
+        </div> <!-- end row div -->
+    </div> <!-- end container-fluid div -->
 </body>
 
