@@ -1,7 +1,9 @@
 body {
-    background-color: #191970;
-    font-family: "Roboto", "Arial", "SansSerif";
-/*    TODO check the font families above as they are not generic */
+
+}
+.container-fluid {
+    background-color: fuchsia;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 /* style the headings */
 h1 {
@@ -17,7 +19,7 @@ h2 {
 
 /* style the paragraphs */
 p {
-    color: white;
+    color: darkblue;
 }
 
 /* style the topnav bar*/
