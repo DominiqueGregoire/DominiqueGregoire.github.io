@@ -3,7 +3,7 @@ body {
 }
 /* style the web page */
 .container-fluid {
-    background-color: fuchsia;
+    background-color: aqua;
     font-family: "Roboto", "Arial", sans-serif;
 }
 .container-fluid #tag-line {
