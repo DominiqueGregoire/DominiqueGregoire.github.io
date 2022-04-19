@@ -5,7 +5,7 @@
  Author:       Dominique Gregoire
  Author URI:
  Template:     chique
- Version:      1.0.1
+ Version:      1.0.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
  Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-logo,
@@ -15,17 +15,69 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
  Text Domain:  chiquechild
 */
 
-.main-navigation ul {
-    background-color: currentColor;
-
-}
-.site-branding {
-    background-color: currentColor;
+/* left hand side panel */
+.main-navigation ul, .site-branding {
+    background-color: #3f3f3f;
 }
 
+.site-header-main .search-social-container {
+    visibility: hidden;
+}
+
+/*.site-branding {*/
+/*    background-color: #3f3f3f;*/
+/*}*/
+
+/* page title */
 #feature-slider-section .owl-dot, #feature-slider-section .owl-prev,
 #feature-slider-section .owl-next, #feature-slider-section .entry-title a,
 #feature-slider-section .entry-title, .custom-header .entry-title {
     color: darksalmon;
     text-align: left;
+}
+
+/*  input boxes */
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"],
+input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"],
+input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"],
+textarea, select, .sidebar .widget-wrap, .author-info, .pricing-section .hentry-inner,
+.site-header input[type="search"], .woocommerce-account .woocommerce-MyAccount-navigation a,
+.woocommerce-pagination ul li span.current, .woocommerce-pagination ul li a:hover, .hero-content-wrapper.boxed
+.entry-container, .hero-content-wrapper.fluid.has-content-frame .entry-container, #footer-instagram .widget-area
+.menu-social-container, .services-section .section-content-wrapper.layout-two .hentry-inner,
+.promotion-headline-wrapper.content-frame .hentry .entry-container, .reserve-content-wrapper .reservation-form {
+    background-color: salmon;
+}
+
+/* footer */
+
+.site-footer {
+    background-color: dimgrey;
+}
+
+.site-footer .site-info a, .site-info {
+    visibility: hidden;
+}
+
+/* left hand side panel */
+
+#masthead, .menu-inside-wrapper, .navigation-default .header-overlay, .widget input[type="search"],
+.sticky-label::before, .sticky-label::after, .ewnewsletter .ew-newsletter-wrap .ew-newsletter-subbox,
+.ewtabbedrecentpopular .ui-tabs .ui-tabs-panel, .ewtabbedrecentpopular .ui-state-active, .ewtabbedrecentpopular
+.ui-widget-content .ui-state-active, .ewtabbedrecentpopular .ui-widget-header .ui-state-active,
+.reserve-content-wrapper .contact-description {
+    background-color: dimgrey;
+}
+
+/* Headings and paragraphs*/
+
+p, .has-medium-font-size {
+    color: ivory;
+}
+
+/*p {*/
+/*    color: ivory;*/
+/*}*/
+h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+    color: darksalmon;
 }
